@@ -77,7 +77,9 @@ Positioned all elements in about us page
 
 
 
-Ms. Iweireibor Praise &Mr. Lawal Israel
+Ms. Iweireibor Praise [22/0051] 
+&
+Mr. Lawal Israel[22/0254]
 
 
 
