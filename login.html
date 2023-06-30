@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login/Signup Page</title>
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+  <div class="container">
+
+    <div id="login-form">
+      <h2>Login</h2>
+      <!-- <label for="login-email">Email:</label> -->
+      <input placeholder="Email" type="email" id="login-email" required>
+      <!-- <label for="login-password">Password:</label> -->
+      <input placeholder="Password" type="password" id="login-password" 8\ required>
+      <button onclick="login()"><a href="../html/SENG 102 Gym Website Home.html" style="text-decoration: none; color: #fff;"><span class="misk">eeeeeeeee </span>Login <span class="misk">eeeeeeeeeeee</span></a></button>
+    </div>
+
+    <div id="signup-form" style="display: none;">
+      <h2>Sign Up</h2>
+      <!-- <label for="signup-email">Email:</label> -->
+      <input placeholder="Email" type="email" id="signup-email" required>
+      <!-- <label for="signup-password">Password:</label> -->
+      <input placeholder="password" type="password" id="signup-password" required>
+      <button onclick="signup()"><a href="../html/success.html" style="text-decoration: none; color: #fff;">Sign Up</a></button>
+    </div>
+
+    <div class="message" id="message"></div>
+    <p>Don't have an account? <a href="#" onclick="toggleForm()">Sign up</a></p>
+  </div>  
+
+  <script>
+    function toggleForm() {
+      var loginForm = document.getElementById("login-form");
+      var signupForm = document.getElementById("signup-form");
+      var message = document.getElementById("message");
+
+      if (loginForm.style.display === "none") {
+        loginForm.style.display = "block";
+        signupForm.style.display = "none";
+        message.innerText = "";
+      } else {
+        loginForm.style.display = "none";
+        signupForm.style.display = "block";
+        message.innerText = "";
+      }
+    }
+
+    function login() {
+      var email = document.getElementById("login-email").value;
+      var password = document.getElementById("login-password").value;
+      var message = document.getElementById("message");
+
+      // Perform login validation here
+      if (email === "user@example.com" && password === "password") {
+        message.innerText = "Login successful!";
+      } else {
+        message.innerText = "Invalid email or password.";
+      }
+    }
+
+    function signup() {
+      var email = document.getElementById("signup-email").value;
+      var password = document.getElementById("signup-password").value;
+      var message = document.getElementById("message");
+
+      // Perform signup validation here
+      if (email === "user@example.com" && password === "password") {
+        message.innerText = "Signup successful!";
+      } else {
+        message.innerText = "Invalid email or password.";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+
+body {
+    background-image: url(https://intarchmed.com/wp-content/uploads/2019/11/478296988-1200x630.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    margin-right: 0;
+    
+}
+
+body::-webkit-scrollbar {
+    display: -moz-grid-line;
+}
+
+h1 {
+    margin-top: 60%; 
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+
+.work {
+    display: grid;
+    grid-template-columns:1fr 2fr  1fr 2fr ;
+    justify-content: space-between;
+    max-width: 100%;
+   
+    bottom: 0px;
+    margin-left: 1px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.fix{
+   
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 0;
+ line-height: 0;
+ height:800px;
+}
+.help{
+border-radius: 50%;
+width: 34%;
+height: 20%;
+}
+.starter{
+    width: 95%;
+    max-width: 200%;
+    height: fit-content;
+    max-height: 55%;
+    margin-right: 30px;
+    border-radius: 2rem;
+   
+    margin-top: 10%;
+}
+
+div h4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    height: 200px;
+    position: relative;
+    bottom: 0px;
+    margin-right: 8px;
+    transition: all 0.6s ease-in-out;
+}
+
+div h4:hover {
+    scale: 1.03;
+}
+
+h4:hover p {
+   
+    opacity: 1;
+}
+
+h4 p {
+    padding: 8px;
+    
+    opacity: 0.7;
+}
+
+
+
+p {
+    
+    transition: all 0.8s ease-in-out;
+}
+
+.personal {
+    background-image: url(https://brontefitness.com.au/wp/wp-content/uploads/2018/04/motivational-tips-for-personal-trainers.jpg);
+    color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.calisthenics {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/5a/c5/e5/5ac5e51d5856a5c39daa41856cfb553a.jpg);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.fitness {
+    background-image: url(https://th.bing.com/th/id/R.6a921b3f111179ea68ccf2bc42ff1b33?rik=sXkaRK3h4WvYIg&riu=http%3a%2f%2fww1.prweb.com%2fprfiles%2f2016%2f04%2f11%2f13331214%2fDollarphotoclub_106667314_001.jpg&ehk=S5v%2fZPcBmeRhPkEnCUYs6A%2fRARqM8%2b2qr37ILH%2bIGeY%3d&risl=&pid=ImgRaw&r=0);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.bodybuilding {
+    background-image: url(https://th.bing.com/th/id/R.28d68cfd4e1243ae02410d44102c3316?rik=zBmXlG2nHmt%2bLQ&pid=ImgRaw&r=0);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+hr{
+    display: none;
+    color: red;
+    background-color: red;
+}
+h5{
+    font-weight: 650;
+    margin-top: 7%;
+    color:#f3e37cf0 ;
+}
+.final{
+    background-color: #052620dd;
+    border-radius: 2rem;
+  
+   
+}
+ 
